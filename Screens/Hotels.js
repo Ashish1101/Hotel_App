@@ -81,11 +81,13 @@ const Hotels = () => {
     ]
 
     return (
-        <ScrollView>
+        <View style={{marginLeft:3.5}}>
+        <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{flex:1 , flexDirection:'row' , flexWrap:'wrap'}}>
            {array.map(item => ( <Collections key={item.id} title={item.location} image={item.image} />))}
         </View>
         </ScrollView>
+        </View>
     )
 }
 

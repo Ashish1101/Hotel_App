@@ -25,7 +25,7 @@ const Login = ({navigation}) => {
             <View style={styles.container}>
           
          
-              <Headline style={{marginTop:120 , marginLeft:30 , fontSize:32}}>Welcome</Headline>
+              <Headline style={{marginTop:120 , marginLeft:30 , fontSize:34}}>Welcome</Headline>
           <Animated.View style={[styles.inputFields , {transform: [{translateY:marginBottom}]}]}>
               <View style={styles.inputs}>
                    <TextInput 
@@ -40,7 +40,7 @@ const Login = ({navigation}) => {
                   style={styles.inputMargin}
                   />
                       <Button mode="contained">Login</Button>
-                   <Button onPress={() => navigation.navigate('Register')}>Don't have account , click here to create</Button>
+                   <Button onPress={() => navigation.navigate('Register')}>Don't have account , create</Button>
               </View>
              </Animated.View>
            </View>
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
         borderTopLeftRadius:50,
         borderTopRightRadius:50,
         justifyContent:'flex-start',
-       backgroundColor:'#ffcfe6'
+       backgroundColor:'#81D4FA'
         
     },
     inputs: {

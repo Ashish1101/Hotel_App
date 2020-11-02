@@ -11,14 +11,14 @@ import {MainNavigator} from './Navigators/MainNavigator'
 
 export default function App() {
 
-  const [state , setState ] = useState(true)
+  const [state , setState ] = useState(false)
 
-  // useEffect(() => {
-  //    setTimeout(() => {
-  //       setState(true)
-  //    }  ,3000)
-  //   //eslint-disable-next-line
-  // })
+  useEffect(() => {
+     setTimeout(() => {
+        setState(true)
+     }  ,5000)
+    //eslint-disable-next-line
+  })
 
   return (
       <PaperProvider>

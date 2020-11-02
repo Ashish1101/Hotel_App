@@ -22,7 +22,7 @@ const Register = ({navigation}) => {
     return (
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()} >
         <View style={styles.container}>
-            <Headline style={{marginTop:110 , marginLeft:30 , fontSize:32}}>Welcome</Headline>
+            <Headline style={{marginTop:110 , marginLeft:30 , fontSize:34}}>Welcome</Headline>
             <Animated.View style={[styles.inputFields, {transform: [{translateX: marginbottom}]}]}>
                 <View style={styles.inputs}>
                     <TextInput 
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
          borderTopLeftRadius:50,
          borderTopRightRadius:50,
          justifyContent:'flex-start',
-         backgroundColor:'#ffcfe6',
+         backgroundColor:'#81D4FA',
         
     },
     inputs: {

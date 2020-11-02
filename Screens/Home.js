@@ -28,7 +28,9 @@ const Home = () => {
                <TouchableRipple onPress={() => navigation.navigate('City')}>
                <CardImage title="Pay once , Stay Twice!" image={image3} />
                </TouchableRipple>
+               <TouchableRipple onPress={() => navigation.navigate('City')}>
                <CardImage title="Sign up now" image={image4} />
+               </TouchableRipple>
            </View>
            <View style={{paddingVertical:10}}>
            <Title style={{fontSize:16 , marginLeft:14}}>Our Collections</Title>
