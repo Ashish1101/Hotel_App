@@ -41,7 +41,7 @@ const Register = ({navigation}) => {
                     style={styles.inputMargin}
                     />
                      <Button mode="contained">Register</Button>
-                     <Button mode='text' onPress={() => navigation.navigate('Login')}>Already have , Login</Button>
+                     <Button mode='text' color="white" onPress={() => navigation.navigate('Login')}>Already have , Login</Button>
                 </View>
             </Animated.View>
         </View>

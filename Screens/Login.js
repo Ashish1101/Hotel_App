@@ -40,7 +40,7 @@ const Login = ({navigation}) => {
                   style={styles.inputMargin}
                   />
                       <Button mode="contained">Login</Button>
-                   <Button onPress={() => navigation.navigate('Register')}>Don't have account , create</Button>
+                   <Button color="white" onPress={() => navigation.navigate('Register')}>Don't have account , create</Button>
               </View>
              </Animated.View>
            </View>
