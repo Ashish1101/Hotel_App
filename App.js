@@ -1,9 +1,8 @@
 import 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar';
 import React , {useState , useEffect} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Login from './Screens/Login'
-import Register from './Screens/Register'
+
+
 import {NavigationContainer} from '@react-navigation/native'
 import {AuthNavigator} from './Navigators/AuthNavigator'
 import {Provider as PaperProvider} from 'react-native-paper'
@@ -31,12 +30,3 @@ export default function App() {
       </PaperProvider>
   );
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex:1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });

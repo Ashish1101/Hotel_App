@@ -37,7 +37,7 @@ const CitySearch = () => {
                 <Searchbar
                 placeholder="Search by locality, landmark or city"
                 onChange={(text) => setSearch(text)} 
-                value={search}
+                // value={search}
                  />
             </View>
             <ScrollView>
